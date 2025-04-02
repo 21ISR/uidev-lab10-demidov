@@ -1,0 +1,331 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.koala {
+    position: relative;
+    display: flex;
+}
+
+.ear{
+    background-color: #A6BECF;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border-radius: 100%;
+    border: 3px solid #000;
+    z-index: 1;
+    transform:translateY(0%);
+    transition: 0.7s ease-in-out;
+}
+
+.head{
+    background-color: #A6BECF;
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    border: 3px solid #000;
+    order: 2;
+    margin: 200px -300px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-ear{
+    order: 1;
+}
+
+.right-ear{
+    order: 3;
+}
+
+.eye{
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    margin: -10px;
+    border-radius: 100%;
+    border: 3px solid #000;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupil{
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius:  100%;
+    border: 3px solid #000;
+    z-index: 4;
+}
+
+.nose{
+    background-color: #000;
+    width: 35px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    z-index: 4;
+    order: 2;
+    margin: 190px -20px;
+    align-self: flex-end;
+}
+
+.left-eye{
+    order: 1;
+}
+
+.right-eye{
+    order: 4;
+}
+
+.mouth{
+    background-color: black;
+    width: 100px;
+    height:50px;
+    order: 3;
+    margin: 0px -50px 140px;
+    align-self: flex-end;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.ear:hover {
+    transform: translateY(40%);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ya krutoi sdelal deorgi gemidov
