@@ -19,6 +19,8 @@ body {
     border-radius: 100%;
     border: 3px solid #000;
     z-index: 1;
+    transform:translateY(0%);
+    transition: 0.7s ease-in-out;
 }
 
 .head{
@@ -95,18 +97,8 @@ body {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-.eyeclose {
-    width: 100%;
-    height: 100%;
-    top:-100%;
-    background-color: #000;
-    border-radius:  50%;
-    transform:translateY(0%);
-    z-index: 2;
-}
-.eyeclose:hover {
-    transform:translateY(100%);
-
+.ear:hover {
+    transform: translateY(40%);  
 }
 
 
